@@ -12,13 +12,11 @@ app.use(express.json());
 app.get("/", (_, res) => res.sendFile(__dirname + "/index.html"));
 app.listen(process.env.PORT);
 
-setInterval(() => {
-  http.get(`https://134785a2-a10f-4f14-970e-e49927f6547c-00-19fnuxnuvn0vv.spock.replit.dev/`);
-}, 300000); // زيادة الفاصل الزمني لتقليل الاستهلاك
+setInterval(() 
 
-function createBot() {
+function createBot() 
   const bot = mineflayer.createBot({
-    host: 'GGpalyer.aternos.me',
+    host: 'GGplayer.aternos.me',
     version: '1.19.4',
     username: 'ServerBot',
     port: 64870,
